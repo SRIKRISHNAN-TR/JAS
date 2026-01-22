@@ -1,1 +1,8 @@
-let x = 5 + 25 * 45
+let foo = 5 * 2;
+foo = foo / 4 + 5;
+
+print(foo, 45);
+
+let t1 = time();
+let t2 = time();
+print(t2 - t1);
